@@ -1,0 +1,261 @@
+
+
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        #btnW{
+          list-style: none;
+          text-decoration: none;
+        }
+
+        header {
+            background-color: #f2e5dc;
+            padding: 15px;
+            text-align: center;
+            
+          }
+
+        header img {
+            max-width: 200px;
+            height: auto;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #efd7d2;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #de6aa0;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        .brand-name{
+          color: rgb(24, 23, 23);
+        }
+.text-colors{
+color: black;
+}
+.card {
+ background-color:#f4f4f4 ;
+ border: none; 
+}
+
+.card img {
+  height: 500px;
+  width: 400px;
+  object-fit: cover;
+  margin: 20px;
+} 
+
+.servicesh{
+  font-size: 4rem;
+  font-weight: 600;
+  margin-top: 10rem;
+  margin-left: 10rem;
+}
+.servicesp{
+  font-size: 1.5rem;
+  margin-left: 10rem;
+}
+.services{
+  width: 50%;
+  
+}
+.btn1{
+  padding: 1.5rem;
+  margin-left: 10rem;
+  height: 4rem;
+  border-radius: 20px;
+  background-color:#f2e2db ;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  display: flex;
+}
+
+.des-card{
+  display: flex;
+  margin: 10rem;
+  justify-content: space-between;
+  }
+  .card-des{
+  height: 20rem;
+  width: 24%;
+  background-color: #f2e5dc;
+  color: #111111;
+  box-shadow: 0 8px 16px #eddad3 ;
+  border-radius: 8px;
+  }
+  .btnC{
+    background-color: #8c8c84;
+  }
+ 
+
+  .card-title{
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    line-height: 1rem;
+    font-weight: 400;
+  }
+  .service-line {
+    width: 50px;
+    height: 2px;
+    margin-bottom: 20px;
+    background-color: rgb(12, 12, 12);
+}
+
+.card-text{
+  color: #0f0f0e;
+  font-size: 1.5rem;
+  line-height: 1.4rem;
+  font-weight: 300;
+}
+#carouselExampleControls{
+  margin-left: 10%;
+margin-right: 10%;
+margin-bottom: 3%;
+
+}
+.crew{
+  font-size: 4rem;
+  font-weight: 600;
+  margin-top: 10rem;
+  margin-left: 10rem;
+}
+.crewp{
+  margin-left: 10%;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #514b4e;
+}
+.spot-text{
+  font-size: 4rem;
+  font-weight: 600;
+  margin-top: 10rem;
+  margin-left: 10rem;
+}
+.spot-p{
+  margin-left: 10%;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #514b4e;
+}
+.heading{
+  font-size: 4rem;
+  font-weight: 600;
+  margin-top: 10rem;
+  margin-left: 10rem;
+}
+.btnA{
+  margin-left: 20rem;
+  border: 4px solid white;
+  border-radius: 4rem;
+}
+.btnB{
+  margin-left: 28rem;
+}
+
+
+.contact-section {
+  text-align: center;
+  padding: 5rem;
+  background-color: #f2e2db;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  color: #666;
+  margin: 10px 0;
+  font-weight: 400;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-item {
+  margin: 10px 0;
+}
+
+.contact-link {
+  color: #007bff;
+  text-decoration: none;
+}
+.footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  width: 100vw;
+}
+
+.footer a{
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.carousel-caption{
+  width: 36rem;
+  margin-left: -13rem;
+}
+#clo{
+  color: #000;
+}
+#cwlo{
+  color: #212529;
+font-size: 50px;
+font-weight: 600;
+}
+#colo{
+  color: #615f5f;
+}
+.text-white{
+  width: 500px;
+}
+
+@media(max-width: 640px){
+  html{
+    font-size:5px;
+    }
+    .btnA{
+      margin-left: 0rem;
+      
+    }
+    .btnB{
+      margin-left: 0rem;
+    }   
+    /* .contact-section{
+   width: 100vw;
+    } */
+    #picoo{
+      width: 600px;
+    }
+    
+}
+@media(max-width: 1298px){
+  .carousel-caption{
+    width: 20rem;
+    margin-left: -7rem;
+  }
+
+  
+}
